@@ -27,11 +27,6 @@
   background-color: #1D3815;
   color: #fff;
   border-radius: 15px;
-
-}
-.navform{
-  position: relative;
-  left: 1px;
 }
 .nav-link{
   margin-left: 4px;
@@ -45,29 +40,60 @@
   list-style: none;
   color: #fff!important;
   background-color: #1D3815;
-  border-radius: 8px;
+  border-radius: 5px;
   letter-spacing: 1px;
 }
 .active:hover{
     color: #000!important;
-    border-radius: 8px;
+    border-radius: 5px;
     background-color: #1D3815;
 }
+.dropdown-menu {
+    letter-spacing: 1px;
+    border-radius: 5px;
+}
+.dropdown-menu > a:hover{
+  color: #fff!important;
+  background-color: #007E33;
+  border-radius: 2px;
+}
+/*---------------Search bar----------------*/
+.navform{
+  position: relative;
+  left: 1px;
+}
+.navform > a{
+  color:#1D3815;
+}
+.navform > a:hover{
+  color: #fff!important;
+  background-color:#1D3815;
+  border-radius: 4px;
+}
+
 
 /*------main---*/
 .image{
   height: 350px;
   width: 100%;
 }
-.jumbotron{
-
+/*------2nd navigations---*/
+.nav2{
   background-color:  #1D3815;
   color: #fff;
-  height: 125px;
-  font-size: 6rem;
-  font-weight: bold;
-
+  min-height: 130px;
 }
+.navbtn{
+  position: relative;
+  top: -12px;
+  left: -4px;
+  padding: 2px;
+}
+.navbtn > button{
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
+/*------mainblog---*/
 .mainblog img{
   height: 250px;
 
@@ -94,41 +120,77 @@
   text-decoration: underline;
   color: var(--light);
 }
+/*------mainblog(L)---*/
+.mainblogL img{
+  height: 300px;
+
+}
+
+.mainblogL a{
+
+  color: #fff;
+}
+.mainblogL a:hover{
+  text-decoration: underline;
+  color: #fff;
+}
+
+.link a {
+  border-left: 2px solid #FA0400;
+  padding: 0.5rem;
+  text-align:left !important;  color: var(--light);
+  text-transform: uppercase;
+  font-size: .9rem;
+
+}
+.link  :hover {
+  text-decoration: underline;
+  color: var(--light);
+}
+/*-----Contact form---*/
+.md-form > label:hover {
+  background-color: #fff!important;
+  color:#33B5E5!important;
+  text-decoration: none;
+
+}
 /*------report---*/
 .report img{
   width: 100%;
   height: 400px;
 }
+
 /*------footer---*/
+
 .footerlink:hover{
   text-decoration: underline;
 }
+
 .list-inline-item{
-  padding: 0;
+  padding: 0;border-radius: 100px;
+
 
 }
+
 .list-inline-item:hover{
   height: 30px;
   padding: 0;
   color: #000;
-  border-radius: 3px;
+  border-radius: 10%;
   background-color: #fff;
 }
+
 .go-top{
   position: fixed;
-  bottom: 6em;
-  right: 2em;
-  background: var(--primary);
-  text-decoration: none;
-  padding: 0.6rem;
-  text-align: center;
+  bottom: .3em;
+  right: 1em;
+  background: #323232;
+  padding: 10px;
   color: var(--dark);
-  text-transform: uppercase;
-  font-size: .9rem;
-  box-shadow: var(--shadow);
-  border-radius: 10px;
+  border-radius: 5px;
   display: none;
 }
+
 .go-top:hover {
   text-decoration: none;
   background: #1D3815;
